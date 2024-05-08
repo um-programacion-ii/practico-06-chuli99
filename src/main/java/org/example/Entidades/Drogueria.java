@@ -6,7 +6,8 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class ObraSocial {
-    private String nombre;
-
+public class Drogueria {
+    public void procesarPedido(Pedido pedido){
+        System.out.println("Pedido procesado por la Drogueria");
+    }
 }
