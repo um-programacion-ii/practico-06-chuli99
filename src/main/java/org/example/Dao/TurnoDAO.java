@@ -32,4 +32,8 @@ public class TurnoDAO {
         turnos.remove(id);
     }
 
+
+    public Integer getNextid() {
+        return contadorId;
+    }
 }

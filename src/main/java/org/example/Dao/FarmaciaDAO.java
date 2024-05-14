@@ -24,7 +24,6 @@ public class FarmaciaDAO {
     }
 
     public int obtenerCantidadDisponible(Medicamento medicamento) {
-        // Devolvemos la cantidad disponible del medicamento en el stock
         return stockFarmacia.getOrDefault(medicamento, 0);
     }
 
